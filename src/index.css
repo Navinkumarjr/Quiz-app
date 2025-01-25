@@ -1,0 +1,35 @@
+.spinner-border {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.main-app,
+.col-12 {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    border-radius: 5px;
+}
+
+.footer>a>i {
+    font-size: 32px;
+    gap: 2;
+}
+
+ul>li {
+    list-style: none;
+}
+
+.btn {
+    margin-top: 5px;
+    width: 200px;
+}
+
+.score {
+    margin-top: 5px;
+}
