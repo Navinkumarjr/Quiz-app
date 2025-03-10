@@ -11,7 +11,7 @@ function QuizAPP() {
 
     const fetchdata = async () => {
         try {
-            const apiUrl = "https://opentdb.com/api.php?amount=10&category=21&difficulty=easy&type=multiple";
+            const apiUrl = "https://the-trivia-api.com/v2/questions";
             const response = await fetch(apiUrl);
             const data = await response.json();
 
